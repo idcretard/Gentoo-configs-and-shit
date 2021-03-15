@@ -1,0 +1,30 @@
+# required by sys-kernel/genkernel-4.1.2-r3::gentoo[firmware]
+# required by genkernel (argument)
+=sys-kernel/linux-firmware-20201022-r2 linux-fw-redistributable no-source-code
+# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
+# required by xorg-x11 (argument)
+>=media-fonts/font-bh-ttf-1.0.3-r2 bh-luxi
+# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
+# required by xorg-x11 (argument)
+>=media-fonts/font-bh-type1-1.0.3-r2 bh-luxi
+# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_nvidia]
+# required by x11-base/xorg-server-1.20.8-r1::gentoo[xorg]
+# required by x11-drivers/xf86-input-libinput-0.30.0::gentoo
+=x11-drivers/nvidia-drivers-455.45.01-r1 NVIDIA-r2
+>=net-im/discord-bin-0.0.10 all-rights-reserved
+# required by kochi-substitute (argument)
+>=media-fonts/kochi-substitute-20030809-r3 free-noncomm
+# required by games-util/lutris-0.5.8.1::gentoo
+# required by lutris (argument)
+=app-arch/unrar-5.9.4 unRAR
+>=games-util/steam-launcher-1.0.0.67 ValveSteamLicense
+>=media-sound/spotify-1.1.42 Spotify
+>=sys-kernel/linux-firmware-20201218 linux-fw-redistributable no-source-code
+dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
+x11-drivers/nvidia-drivers NVIDIA-r2
+>=app-emulation/genymotion-bin-3.2.0 genymotion
+net-vpn/logmein-hamachi LogMeIn
+app-arch/p7zip unRAR
+app-arch/rar RAR
+>=media-sound/mac-4.11.4.5.7-r1 mac
+
